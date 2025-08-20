@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>General Bus Pass Application</title>
+</head>
+<body>
+    <h2>TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+    <h3>GENERAL BUS PASS APPLICATION</h3>
+
+    <form>
+        <!-- Applicant Details -->
+        <fieldset>
+            <legend>Applicant Details</legend>
+            
+            Name: <input type="text" name="name" maxlength="20" required><br><br>
+            Father's / Guardian's Name: <input type="text" name="guardian_name" required><br><br>
+            
+            Date of Birth: <input type="date" name="dob" required><br><br>
+            
+            Gender:
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Male"> Male<br><br>
+            
+            Age As on: 
+            <input type="number" name="age_years" placeholder="Years"> 
+            <input type="number" name="age_months" placeholder="Months"> 
+            <input type="number" name="age_days" placeholder="Days"><br><br>
+            
+            Aadhaar No: <input type="text" name="aadhaar"><br><br>
+            WhatsApp No: <input type="text" name="whatsapp" required><br><br>
+            Email ID: <input type="email" name="email" required><br><br>
+            
+            Photo: <input type="file" name="photo" accept="image/*" required><br><br>
+        </fieldset>
+
+        <!-- Residential Address -->
+        <fieldset>
+            <legend>Residential Address Details</legend>
+            
+            Applicant's Address: <textarea name="address" maxlength="20"></textarea><br><br>
+            District:
+            <select name="district">
+                <option>HYDERABAD</option>
+            </select><br><br>
+            Mandal:
+            <select name="mandal">
+                <option>HYDERABAD</option>
+            </select><br><br>
+            Village:
+            <select name="village">
+                <option>HYDERABAD</option>
+            </select><br><br>
+            Pincode: <input type="text" name="pincode"><br><br>
+        </fieldset>
+
+        <!-- Pass Type -->
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            City:
+            <select name="city">
+                <option>Hyderabad</option>
+            </select><br><br>
+            Pass Type:
+            <select name="pass_type">
+                <option>-----Select-----</option>
+            </select><br><br>
+        </fieldset>
+
+        <!-- Payment Mode -->
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            
+            Payment Mode:
+            <select name="payment_mode">
+                <option>Select Payment Mode</option>
+            </select><br><br>
+            
+            Pass Delivery Mode:
+            <select name="delivery_mode">
+                <option>Select Pass Delivery Mode</option>
+            </select><br><br>
+            
+            Center at which you want to Collect Pass:
+            <select name="collection_center">
+                <option>-----Select-----</option>
+            </select><br><br>
+        </fieldset>
+
+        <!-- Captcha -->
+        Captcha: <input type="text" name="captcha" placeholder="Enter Captcha"><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
